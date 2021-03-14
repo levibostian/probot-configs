@@ -9,7 +9,7 @@ Changes GitHub repository settings from a file. Uses [this probot app](https://g
 * In this file, refer to one of the shareable config files and override anything if you wish:
 
 ```yml
-_extends: probot-configs:settings/default.yaml
+_extends: probot-configs:settings/default.yml
 ```
 
 > Learn more about [probot shareable configs](https://probot.github.io/docs/best-practices/#store-configuration-in-the-repository)
