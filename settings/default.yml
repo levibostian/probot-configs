@@ -1,0 +1,16 @@
+repository:
+  delete_branch_on_merge: true
+  has_wiki: false
+  has_projects: false
+  allow_squash_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: false
+  default_branch: main
+  enable_automated_security_fixes: true
+  enable_vulnerability_alerts: true
+
+branches:
+  - name: main
+    protection:
+      required_pull_request_reviews: null 
+      required_status_checks: null
