@@ -4,8 +4,7 @@ repository:
   has_projects: false
   allow_squash_merge: true
   allow_merge_commit: false
-  allow_rebase_merge: false
-  default_branch: main
+  allow_rebase_merge: false  
   enable_automated_security_fixes: true
   enable_vulnerability_alerts: true
 
